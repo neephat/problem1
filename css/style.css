@@ -1,0 +1,30 @@
+.circle{
+  width:200px;
+  height:200px;
+  display:flex;
+  flex-flow: wrap;
+  margin: auto;
+  padding:200px 200px; 
+  background: #E3516E;
+}
+
+.circle div{
+  height:50%;
+  width:50%;
+}
+
+.circle div:nth-child(1){
+  background: #51B5A9;
+  border-radius:100px 0 0 0;
+}
+.circle div:nth-child(2){
+  background: #FADE8B;
+  border-radius:0 100px 0 0;
+}
+.circle div:nth-child(3){
+  background: #f7f3D7;
+  border-radius:0 0 0 100px;
+}
+.circle div:nth-child(4){
+
+}
